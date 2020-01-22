@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_color"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+
+
+    <com.agilie.RotatableAutofitEditText
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:autofit="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/edttxt"
+        android:cursorVisible="true"
+        android:layout_width="match_parent"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners_white_transparent_50"
+        android:gravity="center"
+        android:textSize="@dimen/max_text_size"
+        android:hint="@string/type_something"
+        android:padding="16dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        autofit:clipBounds="true"
+        autofit:maxTextSize="@dimen/max_text_size"
+        autofit:minTextSize="@dimen/auto_min_text_size"
+        autofit:minWidth="@dimen/min_width"
+        autofit:movable="false"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        autofit:resizable="true"
+        autofit:rotatable="false" />
+
+
+</RelativeLayout>
