@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">TotalityCorp</string>
+    <string name="app_name">UPI Payment</string>
     <string name="type_something">TYPE SOMETHING</string>
+    <string name="transcation_succes">Transcation Succes</string>
 </resources>
